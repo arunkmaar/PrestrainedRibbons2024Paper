@@ -1,9 +1,15 @@
-Supplementary Material:
+# Supplementary Material
 
-oneDEnergyEquilibriumEqn.nb: Mathematica file presenting 1D energy, the equilibirum equation and boundary conditions.
+- **solvingCrosssectionalDisplacements.nb**: This Mathematica file provides asymptotic solutions for cross-sectional displacements denoted as \(u\), \(v\), and \(w\).
 
-solvingCrosssectionalDisplacements.nb: Mathematica file presenting asympotic solutions for cross-sectional displacements u,v,w.
+- **oneDEnergyEquilibriumEqn.nb**: This Mathematica file includes the 1D energy expressions, equilibrium equations, and boundary conditions.
 
-preferredLongWavelength.zip: Auto-7p simulations file and the dependecides for the case of preferred long wavelength investigated in section 5.1
+## Aut07pSsimulations
 
-preferredShortWavelength.zip: Auto-7p simulations file and the dependecides for the case of short wavelength investigated in section 5.2
+This directory contains two subfolders:
+
+- **PreferredLongWavelength**: Contains Auto-7p simulation files and their dependencies, focusing on the preferred long wavelength scenario discussed in Section 5.1.
+
+- **PreferredShortWavelength**: Contains Auto-7p simulation files and their dependencies, focusing on the short wavelength scenario discussed in Section 5.2.
+
+For detailed explanations on solving equations with Auto-07p and the subsequent post-processing steps, please refer to the `readme.pdf`.
