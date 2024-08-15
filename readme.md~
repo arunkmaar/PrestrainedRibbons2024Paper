@@ -1,6 +1,6 @@
 # Supplementary Material
 
-- **solvingCrosssectionalDisplacements.nb**: This Mathematica file provides asymptotic solutions for cross-sectional displacements denoted as \(u, v, w\).
+- **solvingCrosssectionalDisplacements.nb**: This Mathematica file provides asymptotic solutions for cross-sectional displacements denoted as \(u\), \(v\), and \(w\).
 
 - **oneDEnergyEquilibriumEqn.nb**: This Mathematica file includes the 1D energy expressions, equilibrium equations, and boundary conditions.
 
