@@ -60,7 +60,7 @@
   cases. <with|font-family|tt|Auto-07p> files and solutions are stored in the
   respective <with|font-family|tt|Output> directory inside each sub-folder.
   You can use the long wavelength one-perversion case as a guide for
-  post-processing solutions other cases.
+  post-processing solutions for other cases.
 
   <section|Solving the BVP in <with|font-family|tt|Auto-07p>>
 
@@ -103,11 +103,11 @@
   </equation*>
 
   Also, we use variable <with|font-family|tt|Su<math|>><math|\<in\><around*|[|0,1|]>>
-  as the independent variable for the differential equations, defined as
-  <with|font-family|tt|Su><math|=S/l>. The seventh differential equation in
-  the subroutine <with|font-family|tt|FUNC> along with boundary seventh
-  boundary condition in the subroutine <with|font-family|tt|BCND >sets up
-  <with|font-family|tt|Su>.
+  as the independent variable for setting up the differential equations,
+  where we define <with|font-family|tt|Su><math|=S/l>. The seventh
+  differential equation in the subroutine <with|font-family|tt|FUNC> along
+  with boundary seventh boundary condition in the subroutine
+  <with|font-family|tt|BCND> specifies <with|font-family|tt|Su>.
 
   There are three parameters in the <with|font-family|tt|FUNC> subroutine:
 
