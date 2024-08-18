@@ -85,7 +85,7 @@
 
   The <with|font-family|tt|solve.py> script depends on two
   <with|font-family|tt|.f90> files, which set up the equilibrium equations,
-  boundary conditions, and initial parameter conditions. Specifically,
+  boundary conditions, and initial values for parameters. Specifically,
   <with|font-family|tt|Auto-07p> requires us to define the differential
   equations as a first-order system in the subroutine
   <with|font-family|tt|FUNC> in the <with|font-family|tt|.f90> files.
@@ -148,7 +148,7 @@
   <math|\<varepsilon\>=-29.04> and <math|\<varepsilon\>=-31.02> as per Figure
   5.3(a).
 
-  Owing the difficulty in finding and selecting a solution branch
+  Owing to the difficulty in finding and selecting a solution branch
   corresponding to a specific number of perversions, we use the following
   procedure as echoed in <with|font-family|tt|solving.py>:
 
@@ -178,7 +178,7 @@
   \ <with|font-family|tt|l2Tau> vs <with|font-family|tt|epsilon> plot on the
   screen.\ 
 
-  <\big-figure|<image|plot.png|0.8par|||>>
+  <\big-figure|<image|l2TauvsEpsilonPlot.pdf|0.8par|||>>
     <with|font-family|tt|l2Tau> vs <with|font-family|tt|epsilon> plot that
     appears after the execution of script solve.py. \ 
   </big-figure>
