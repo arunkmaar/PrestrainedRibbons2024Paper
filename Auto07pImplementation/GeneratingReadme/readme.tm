@@ -18,6 +18,12 @@
   </doc-title>|<doc-running-title|Wavelength selection in pre-strained
   ribbons>>
 
+  <\doc-running-title>
+    Solving for solutions in Auto-07p
+
+    \;
+  </doc-running-title>
+
   This file explains how to solve the boundary value problem (BVP) described
   in Section<nbsp>3.4 of the using <with|font-family|tt|Auto-07p><nbsp><cite|doedel2007auto>,
   a powerful differential equation solver that uses the arc length
@@ -186,15 +192,16 @@
   \;
 
   This plot corresponds to Figure 5.1 (with a negative sign for
-  <math|\<varepsilon\>>). At the end, the script saves
-  <with|font-family|tt|b.changeSeparation> file stores the details of
-  increment used to compute the figure, and
-  <with|font-family|tt|s.changeSeparation> stores the solved ribbon states.
+  <math|\<varepsilon\>>). Towards the end of the end of the script solve.py,
+  we save <with|font-family|tt|b.changeSeparation> file that stores the
+  details of increment used to compute the figure, and
+  <with|font-family|tt|s.changeSeparation> that stores the solved ribbon
+  states.
 
   The output from our <with|font-family|tt|Auto-07p> implementation is
-  located in the <with|font-family|tt|Output> folder. For more details on how
-  to interpret the columns in <with|font-family|tt|s.changeSeparation>, refer
-  to section A.3 of <cite|autoTutorial>.
+  located inside the <with|font-family|tt|Output> folder. For more details on
+  how to interpret the columns in <with|font-family|tt|s.changeSeparation>,
+  refer to section A.3 of <cite|autoTutorial>.
 
   For further post-processing, we use the Mathematica files in the
   <with|font-family|tt|Postprocessing> folder. We will use
