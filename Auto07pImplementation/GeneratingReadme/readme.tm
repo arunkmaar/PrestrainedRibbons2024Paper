@@ -30,7 +30,7 @@
   continuation.
 
   There are two cases discussed in Section 5 of the paper: the preferred long
-  wavelength case and the short wavelength case. \ We have two folders
+  wavelength case and the short wavelength case. We have two folders
   corresponding to these cases in this directory:
 
   <\enumerate>
@@ -172,10 +172,9 @@
     ribbon state at hand, we next perform a continuation in
     <math|\<varepsilon\>> to obtain the solution curve. We adjust constants
     and step sizes to ensure convergence. These values are specified in
-    <with|font-family|tt|solve.py>. For detailed explanations of various
-    constants in <with|font-family|tt|solve.py> and
-    <with|font-family|tt|c.guessStep>, refer to section A.2 of
-    <cite|autoTutorial>.
+    <with|font-family|tt|solve.py>. For explanations of various constants in
+    <with|font-family|tt|solve.py> and <with|font-family|tt|c.guessStep>,
+    refer to section A.2 of <cite|autoTutorial>.
   </enumerate>
 
   <section|Post-processing the computed solutions>
