@@ -12,4 +12,4 @@ This directory contains two subfolders:
 
 - **PreferredShortWavelength**: Contains Auto-07p simulation files and the dependencies for the short wavelength scenario discussed in Section 5.2.
 
-For explanations on solving equations with Auto-07p and the subsequent post-processing steps, please refer to the `readme.pdf`.
+For explanations on solving equations with Auto-07p and the subsequent post-processing steps, please refer to the `readme.pdf` in `Auto07pImplementation` folder.

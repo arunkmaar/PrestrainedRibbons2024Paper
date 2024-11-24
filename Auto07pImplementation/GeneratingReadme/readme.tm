@@ -25,7 +25,7 @@
   </doc-running-title>
 
   This file explains how to solve the boundary value problem (BVP) described
-  in Section<nbsp>3.4 of the using <with|font-family|tt|Auto-07p><nbsp><cite|doedel2007auto>,
+  in Section<nbsp>3.4 of the paper using <with|font-family|tt|Auto-07p><nbsp><cite|doedel2007auto>,
   a powerful differential equation solver that uses the arc length
   continuation.
 
@@ -39,7 +39,7 @@
     <item><with|font-series|bold|Short Wavelength>
   </enumerate>
 
-  In each folder, there are two sub-folders corresponding to different
+  In each folder, there are two sub-folders corresponding to respective
   solution scenarios:
 
   <\itemize>
@@ -63,10 +63,10 @@
 
   We will explain these steps using the preferred long wavelength
   one-perversion case as an example. The procedure is similar for the other
-  cases. <with|font-family|tt|Auto-07p> files and solutions are stored in the
-  respective <with|font-family|tt|Output> directory inside each sub-folder.
-  You can use the long wavelength one-perversion case as a guide for
-  post-processing solutions for other cases.
+  cases. Each subfolder contains <with|font-family|tt|Auto-07p> files and
+  solutions are stored in the respective <with|font-family|tt|Output>
+  directories. You can use the long wavelength one-perversion case as a guide
+  for post-processing solutions for other cases.
 
   <section|Solving the BVP in <with|font-family|tt|Auto-07p>>
 
@@ -148,15 +148,15 @@
 
   <with|font-series|bold|Loading procedure.> Using analytical calculations
   based on the dispersion relation in equation 4.5 of the paper, we
-  anticipate that buckling points may be close to each other as we decrease
-  the separation between ribbon ends. For example, in the preferred long
-  wavelength case, the first twelve buckling points may occur between
+  anticipate that buckling points may be observed close to each other as we
+  decrease the separation between ribbon ends. For example, in the preferred
+  long wavelength case, the first twelve buckling points may occur between
   <math|\<varepsilon\>=-29.04> and <math|\<varepsilon\>=-31.02> as per Figure
   5.3(a).
 
   Owing to the difficulty in finding and selecting a solution branch
   corresponding to a specific number of perversions, we use the following
-  procedure as echoed in <with|font-family|tt|solving.py>:
+  procedure as echo in <with|font-family|tt|solving.py>:
 
   <\enumerate>
     <item><with|font-series|bold|Guess Step>: We first apply a sinusoidal
@@ -166,7 +166,7 @@
     0 to 100. Then, decrease the separation at a fixed moment until the
     ribbon ends is well below correpsonding buckling strain predicted for the
     desired mode. For example, decrease separation until
-    <math|\<varepsilon\>=-45.9>, then set the external moment to zero.
+    <math|\<varepsilon\>=-45.9>. And then set the external moment to zero.
 
     <item><with|font-series|bold|Changing Separation>: With one perversion
     ribbon state at hand, we next perform a continuation in
@@ -191,9 +191,9 @@
   \;
 
   This plot corresponds to Figure 5.1 (with a negative sign for
-  <math|\<varepsilon\>>). Towards the end of the end of the script solve.py,
-  we save <with|font-family|tt|b.changeSeparation> file that stores the
-  details of increment used to compute the figure, and
+  <math|\<varepsilon\>> in the paper). Towards the end of the end of the
+  script solve.py, we save <with|font-family|tt|b.changeSeparation> file that
+  stores the details of epsilon's increments used to compute the figure, and
   <with|font-family|tt|s.changeSeparation> that stores the solved ribbon
   states.
 
@@ -208,7 +208,7 @@
   s.changeSeparation. We plot twist for a ribbon sate at
   <math|\<varepsilon\>=-50> in the Mathematica file.
 
-  <\bibliography|bib|tm-plain|prestrainedRib>
+  <\bibliography|bib|tm-plain|autoRib>
     <\bib-list|2>
       <bibitem*|1><label|bib-doedel2007auto>E.<nbsp>Doedel,
       A.<nbsp>R.<nbsp>Champneys, F.<nbsp>Dercole, T.<nbsp>F.<nbsp>Fairgrieve,
