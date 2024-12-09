@@ -48,7 +48,9 @@
     <item><with|font-series|bold|TwelvePerversionSolutions>
   </itemize>
 
-  These sub-folders contain the files required for solving the BVP.
+  These sub-folders contain the files required for solving the BVP. The
+  computed solutions are shown in the videos in
+  <verbatim|Videos-ResultsFromNumericalSimulations> folder.
 
   <section*|Steps for obtaining solutions>
 
@@ -79,12 +81,12 @@
 
     <item>Open <with|font-family|tt|Auto-07p> and run the
     <with|font-family|tt|solve.py> script \ by executing the command:
+
+    <verbatim|execfile('solve.py')>
   </itemize>
 
   <\verbatim>
     \;
-
-    execfile('solve.py')
 
     \;
   </verbatim>
