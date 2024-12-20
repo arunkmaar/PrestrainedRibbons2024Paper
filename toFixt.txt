@@ -1,0 +1,1 @@
+realized on Dec-20-2024: I have forgot to push updates to Auto-7p files for various cases. Copy from SSD to git repo. 
