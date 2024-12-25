@@ -1,0 +1,50 @@
+parnames = {1: 'epsilon', 2: 'mExt', 3: 'l2Tau'}
+unames = {
+    1: 'theta',
+    2: 'tau',
+    3: 'dTau',
+    4: 'd2Tau',
+    5: 'd3TauByl',
+    6: 'MByF0',
+    7: 'Su'
+}
+
+NDIM = 7
+IPS = 4
+IRS = 0
+ILP = 1
+
+ICP = ['mExt', 'epsilon', 'l2Tau']
+
+NTST = 200
+NCOL = 4
+IAD = 1
+ISP = 2
+ISW = 1
+IPLT = 0
+NBC = 7
+NINT = 0
+
+NMX = 100000
+NPR = 10000
+MXBF = 10
+IID = 2
+ITMX = 8
+ITNW = 6
+NWTN = 6
+JAC = 0
+
+EPSL = 1.E-6
+EPSU = 1.E-6
+EPSS = 1.E-4
+
+DS = -1.E-2
+DSMIN = 1.E-10
+DSMAX = 2.E-1
+IADS = 1
+
+NPAR = 3
+THL = {}
+THU = {}
+
+UZSTOP = {'mExt': -10.}
