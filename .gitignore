@@ -1,0 +1,12 @@
+# Junk
+*~*
+*#*
+
+
+# Executables
+*.exe
+*.out
+*.o
+
+#
+.goutputstream-*
