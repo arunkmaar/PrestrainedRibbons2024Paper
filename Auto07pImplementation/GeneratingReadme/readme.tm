@@ -211,7 +211,7 @@
   <with|font-family|tt|Postprocessing> folder. We will use
   <with|font-family|tt|auto07pfilesParser.m> to import data from
   s.changeSeparation. We plot twist for a ribbon sate at
-  <math|\<varepsilon\>=-50> in the Mathematica file.
+  <math|\<varepsilon\>=-29.07> in the Mathematica file.
 
   <\bibliography|bib|tm-plain|autoRib>
     <\bib-list|2>
